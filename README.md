@@ -40,7 +40,7 @@ Then I will type a title or header for that section
 #### Here's a big ol' section break ----------------------------
 ```
 
-### `insertSmallBreakAddin`
+### `insertLittleBreakAddin`
 
 Just inserts the following text into your code:
 
