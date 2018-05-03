@@ -1,0 +1,9 @@
+Name: Insert big section break
+Description: Inserts a major section break.
+Binding: insertBigBreakAddin
+Interactive: false
+
+Name: Insert small section break
+Description: Inserts a minor section break.
+Binding: insertSmallBreakAddin
+Interactive: false
