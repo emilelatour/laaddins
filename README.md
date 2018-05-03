@@ -21,9 +21,10 @@ Inspiration from
 
 Once installed, in RStudio, I navigate to Tools > Modify keyboard shortcuts, and make the following assignments
 
-- `Ctrl+Shift+B` for the Big Break, and 
-- `Ctrl+Shift+L` for the Little Break
+- `Ctrl+Alt+B` for the Big Break, and 
+- `Ctrl+Alt+L` for the Little Break
 
+Not sure if these conflict with other keyboard shortcuts (as of 2018-05-03).
 
 ## Examples
 
