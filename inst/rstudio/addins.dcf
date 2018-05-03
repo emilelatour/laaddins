@@ -5,5 +5,5 @@ Interactive: false
 
 Name: Insert little section break
 Description: Inserts a minor section break.
-Binding: insertSmallBreakAddin
+Binding: insertLittleBreakAddin
 Interactive: false
