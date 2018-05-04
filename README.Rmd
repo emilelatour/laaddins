@@ -1,30 +1,36 @@
+---
+output: rmarkdown::github_document
+---
 
-laaddins
---------
+```{r, echo = FALSE}
+knitr::opts_chunk$set(collapse = TRUE, comment="##", fig.retina=2)
+```
 
+## laaddins
 Additional Addins for RStudio
 
 ### Description
 
-I'm a really big fan of some of the RStudio Addins. Most notable: [datapasta](https://github.com/MilesMcBain/datapasta), [clipr](https://github.com/daattali/addinslist), and [snippetsaddins](https://github.com/sfr/RStudio-Addin-Snippets). There are so many other greats ones but I use these over and over. The most comprehensive list can be found at the [addinslist](https://github.com/daattali/addinslist). A cool thing with Addins is that you can assign them to Keyboard Shortcuts.
+I'm a really big fan of some of the RStudio Addins. Most notable: [datapasta](https://github.com/MilesMcBain/datapasta), [clipr](https://github.com/daattali/addinslist), and [snippetsaddins](https://github.com/sfr/RStudio-Addin-Snippets). There are so many other greats ones but I use these over and over. The most comprehensive list can be found at the [addinslist](https://github.com/daattali/addinslist). A cool thing with Addins is that you can assign them to Keyboard Shortcuts. 
 
 As I write code in R, some things I type repetitively. Especially as I style and commment my code. I created these Addins to turn some of those things into keyboard shortcuts. I can also accomplish this using RStudio [snippets](https://support.rstudio.com/hc/en-us/articles/204463668-Code-Snippets) (I did). This project gave me the personal benefit of learning about Addins.
 
-Inspiration from
+Inspiration from 
 
--   [RStudio Addins](https://github.com/rstudio/addinexamples)
--   [hrbraddins](https://github.com/hrbrmstr/hrbraddins)
--   [datapasta](https://github.com/MilesMcBain/datapasta)
+- [RStudio Addins](https://github.com/rstudio/addinexamples)
+- [hrbraddins](https://github.com/hrbrmstr/hrbraddins)
+- [datapasta](https://github.com/MilesMcBain/datapasta)
+
 
 ### What's in the box?
 
--   `insertBigBreakAddin`: Inserts the text that I use when I am coding and want to indicate a big section break.
--   `insertLittleBreakAddin`: Inserts the text that I use when I am coding and want to indicate a little section break.
+- `insertBigBreakAddin`: Inserts the text that I use when I am coding and want to indicate a big section break.
+- `insertLittleBreakAddin`: Inserts the text that I use when I am coding and want to indicate a little section break.
 
-Once installed, in RStudio, I navigate to Tools &gt; Modify keyboard shortcuts, and make the following assignments
+Once installed, in RStudio, I navigate to Tools > Modify keyboard shortcuts, and make the following assignments
 
--   `Ctrl+Alt+B` for the Big Break, and
--   `Ctrl+Alt+L` for the Little Break
+- `Ctrl+Alt+B` for the Big Break, and 
+- `Ctrl+Alt+L` for the Little Break
 
 Not sure if these conflict with other keyboard shortcuts (as of 2018-05-03).
 
@@ -34,13 +40,13 @@ Not sure if these conflict with other keyboard shortcuts (as of 2018-05-03).
 
 Inserts the following text into your code:
 
-``` r
+``` {r eval=FALSE}
 #### ----------------------------
 ```
 
 Then type a title or header for that section
 
-``` r
+``` {r eval=FALSE}
 #### Section One -------------------------------
 
 # Sections are separated visually with 4 comment characters and 32 dashes
@@ -54,13 +60,13 @@ Then type a title or header for that section
 
 Inserts the following text into your code:
 
-``` r
+``` {r eval=FALSE}
 ## ---------------- 
 ```
 
 Combined with the Big Section Break code is organized like so
 
-``` r
+``` {r eval=FALSE}
 
 #### Section One -------------------------------
 
@@ -73,11 +79,11 @@ Combined with the Big Section Break code is organized like so
 
 # The last 4 dashes at the end of the comment are a section marker supported by
 # RStudio
+
 ```
 
-Installation
-------------
+## Installation
 
-``` r
+```{r eval=FALSE}
 devtools::install_github("emilelatour/laaddins")
 ```
