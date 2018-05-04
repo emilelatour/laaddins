@@ -8,7 +8,7 @@ Additional Addins for RStudio
 
 I'm a really big fan of some of the RStudio Addins. Most notable: [datapasta](https://github.com/MilesMcBain/datapasta), [clipr](https://github.com/daattali/addinslist), and [snippetsaddins](https://github.com/sfr/RStudio-Addin-Snippets). There are so many other greats ones but I use these over and over. The most comprehensive list can be found at the [addinslist](https://github.com/daattali/addinslist). A cool thing with Addins is that you can assign them to Keyboard Shortcuts.
 
-As I write code in R, some things I type repetitively. Especially as I style and commment my code. I created these Addins to turn some of those things into keyboard shortcuts. I can also accomplish this using RStudio [snippets](https://support.rstudio.com/hc/en-us/articles/204463668-Code-Snippets) (I did). This project gave me the personal benefit of learning about Addins.
+As I write code in R, some things I type repetitively. Especially as I style and commment my code. I created these Addins to turn some of those things into keyboard shortcuts. I did pretty much the same thing using RStudio [snippets](https://support.rstudio.com/hc/en-us/articles/204463668-Code-Snippets), but this project gave me the personal benefit of learning about Addins.
 
 Inspiration from
 
